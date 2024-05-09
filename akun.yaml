@@ -1,5 +1,5 @@
 proxies:
-- name: spotifi
+- name: vidio 🇮🇩
   type: trojan
   server: quiz.int.vidio.com
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: "/trojan"
     headers:
       Host: jupe2.dontunnel.my.id
-- name: cvs deo
+- name: cvs deo 🇮🇩
   type: trojan
   server: cvs-deo.shopeemobile.com
   port: 443
