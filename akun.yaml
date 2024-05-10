@@ -14,14 +14,14 @@ proxies:
       Host: jupe2.dontunnel.my.id
 - name: cvs deo 🇮🇩
   type: trojan
-  server: cvs-deo.shopeemobile.com
+  server: quiz.staging.vidio.com
   port: 443
-  password: de2b536c-3859-4451-a242-c6fd9c4010b4
+  password: cb1f26aa437d4bfa9b841d28503ce8cc
   udp: true
-  sni: jupe2.dontunnel.my.id
+  sni: jobscareerfortoday.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: "/6b777a91"
     headers:
-      Host: jupe2.dontunnel.my.id
+      Host: jobscareerfortoday.com
