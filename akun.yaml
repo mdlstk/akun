@@ -1,7 +1,7 @@
 proxies:
 - name: microsoft
   type: trojan
-  server: info.microsoft.com
+  server: www.skillacademy.com
   port: 443
   password: de2b536c-3859-4451-a242-c6fd9c4010b4
   udp: true
