@@ -53,7 +53,7 @@ proxies:
       Host: jobscareerfortoday.com
 - name: airbase
   type: trojan
-  server: cdn.customlinks.appsflyer.com
+  server: api.midtrans.com
   port: 443
   password: de2b536c-3859-4451-a242-c6fd9c4010b4
   udp: true
