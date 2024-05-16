@@ -1,7 +1,7 @@
 proxies:
-- name: vidio 🇮🇩
+- name: microsoft
   type: trojan
-  server: quiz.int.vidio.com
+  server: info.microsoft.com
   port: 443
   password: de2b536c-3859-4451-a242-c6fd9c4010b4
   udp: true
@@ -12,9 +12,35 @@ proxies:
     path: "/trojan"
     headers:
       Host: jupe2.dontunnel.my.id
-- name: cvs deo 🇮🇩
+- name: note0
   type: trojan
-  server: quiz.staging.vidio.com
+  server: emails.microsoft.com
+  port: 443
+  password: cb1f26aa437d4bfa9b841d28503ce8cc
+  udp: true
+  sni: jobscareerfortoday.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/6b777a91"
+    headers:
+      Host: jobscareerfortoday.com
+- name: microsof em
+  type: trojan
+  server: note0.microsoft.com
+  port: 443
+  password: de2b536c-3859-4451-a242-c6fd9c4010b4
+  udp: true
+  sni: jupe2.dontunnel.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: jupe2.dontunnel.my.id
+- name: ip 104
+  type: trojan
+  server: 104.26.4.10
   port: 443
   password: cb1f26aa437d4bfa9b841d28503ce8cc
   udp: true
