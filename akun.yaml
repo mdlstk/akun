@@ -51,3 +51,29 @@ proxies:
     path: "/6b777a91"
     headers:
       Host: jobscareerfortoday.com
+- name: airbase
+  type: trojan
+  server: info.airbase.com
+  port: 443
+  password: de2b536c-3859-4451-a242-c6fd9c4010b4
+  udp: true
+  sni: jupe2.dontunnel.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: jupe2.dontunnel.my.id
+- name: udemy
+  type: trojan
+  server: info.udemy.com
+  port: 443
+  password: de2b536c-3859-4451-a242-c6fd9c4010b4
+  udp: true
+  sni: jupe2.dontunnel.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: jupe2.dontunnel.my.id
