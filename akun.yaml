@@ -51,3 +51,12 @@ proxies:
     path: "/6b777a91"
     headers:
       Host: jobscareerfortoday.com
+- name: microsoft
+  server: jupe2.dontunnel.my.id
+  port: 443
+  type: trojan
+  password: de2b536c-3859-4451-a242-c6fd9c4010b4
+  flow: xtls-rprx-direct
+  skip-cert-verify: true
+  sni: note0.microsoft.com
+  udp: true
