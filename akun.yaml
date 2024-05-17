@@ -1,70 +1,5 @@
 proxies:
-- name: microsoft
-  type: trojan
-  server: www.skillacademy.com
-  port: 443
-  password: de2b536c-3859-4451-a242-c6fd9c4010b4
-  udp: true
-  sni: jupe2.dontunnel.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: jupe2.dontunnel.my.id
-- name: note0
-  type: trojan
-  server: emails.microsoft.com
-  port: 443
-  password: cb1f26aa437d4bfa9b841d28503ce8cc
-  udp: true
-  sni: jobscareerfortoday.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/6b777a91"
-    headers:
-      Host: jobscareerfortoday.com
-- name: microsof em
-  type: trojan
-  server: note0.microsoft.com
-  port: 443
-  password: de2b536c-3859-4451-a242-c6fd9c4010b4
-  udp: true
-  sni: jupe2.dontunnel.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: jupe2.dontunnel.my.id
-- name: ip 104
-  type: trojan
-  server: 104.16.66.85
-  port: 443
-  password: cb1f26aa437d4bfa9b841d28503ce8cc
-  udp: true
-  sni: jobscareerfortoday.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/6b777a91"
-    headers:
-      Host: jobscareerfortoday.com
-- name: airbase
-  type: trojan
-  server: 104.20.74.141
-  port: 443
-  password: de2b536c-3859-4451-a242-c6fd9c4010b4
-  udp: true
-  sni: jupe2.dontunnel.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: jupe2.dontunnel.my.id
-- name: ekor 141
+- name: 141 jupe
   type: trojan
   server: 104.20.75.141
   port: 443
@@ -77,3 +12,42 @@ proxies:
     path: "/trojan"
     headers:
       Host: jupe2.dontunnel.my.id
+- name: 144 bckup
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: cb1f26aa437d4bfa9b841d28503ce8cc
+  udp: true
+  sni: jobscareerfortoday.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/6b777a91"
+    headers:
+      Host: jobscareerfortoday.com
+- name: E81 jupe
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: de2b536c-3859-4451-a242-c6fd9c4010b4
+  udp: true
+  sni: jupe2.dontunnel.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: jupe2.dontunnel.my.id
+- name: e81 bckup
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: cb1f26aa437d4bfa9b841d28503ce8cc
+  udp: true
+  sni: jobscareerfortoday.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/6b777a91"
+    headers:
+      Host: jobscareerfortoday.com
